@@ -1,0 +1,83 @@
+# Financial Health Advisor Documentation
+
+## Overview
+
+The Financial Health Advisor is a web-based application designed to help users manage and analyze their financial health. It provides tools for tracking income, expenses, debts, and investments, as well as offering insights through various financial metrics and visualizations.
+
+## Key Features
+
+1. User Authentication
+   - Registration and login functionality
+   - Secure password hashing
+
+2. Financial Data Management
+   - Add and track monthly financial data
+   - View historical financial information
+
+3. Financial Health Assessment
+   - Calculate and display key financial metrics:
+     - Savings Rate
+     - Debt-to-Income Ratio
+     - Investment-to-Income Ratio
+   - Predict future savings rate using machine learning
+
+4. Data Visualization
+   - Interactive charts for:
+     - Income vs. Expenses over time
+     - Savings Rate trends
+     - Debts vs. Investments comparison
+     - Expense breakdown (pie chart)
+
+5. Advanced Financial Tools
+   - Anomaly Detection: Identify unusual patterns in financial data
+   - Financial Forecasting: Predict future expenses
+   - Goal-Based Planning: Calculate required savings for financial goals
+   - Robo-Advisory: Provide investment recommendations based on risk tolerance
+
+## Technical Stack
+
+- Backend: Flask (Python)
+- Frontend: HTML, CSS (Tailwind), JavaScript (jQuery)
+- Database: SQLite with SQLAlchemy ORM
+- Machine Learning: scikit-learn
+- Charts: Chart.js
+
+## Recent Updates
+
+1. Improved user interface with responsive design
+2. Added dark mode functionality for better user experience
+3. Implemented additional financial tools (Anomaly Detection, Financial Forecasting, Goal-Based Planning, Robo-Advisory)
+4. Enhanced data visualization with new chart types and improved interactivity
+
+## Known Issues
+
+1. Dark Mode Toggle:
+   - Issue: The dark mode toggle doesn't persist across page reloads.
+   - Impact: Users need to re-enable dark mode after refreshing the page.
+   - Fix Timeline: This issue is scheduled to be addressed in the next sprint, estimated within 2-3 weeks.
+
+2. Expense Breakdown Chart:
+   - Issue: The expense breakdown chart currently uses static example data instead of user-specific data.
+   - Impact: Users don't see their actual expense breakdown in the pie chart.
+   - Fix Timeline: This bug is considered low priority and is planned to be fixed in the next major update, estimated within 1-2 months.
+
+## Upcoming Features
+
+1. Custom Categories: Allow users to create and track custom expense categories.
+2. PDF Report Generation: Enable users to generate and download comprehensive financial reports.
+3. Mobile App: Develop a mobile application for on-the-go financial tracking and analysis.
+4. Multi-currency Support: Add functionality to handle multiple currencies for international users.
+
+## Feedback and Support
+
+For any issues, feature requests, or general feedback, please open an issue on my GitHub repository.
+
+
+So yeah... that's all for now folks.
+and yeah, if you find your newly uploaded or fed in data to not display asap.... just refresh the page.
+I have come up with advanced finnacial tools for this half of the project.
+mess around  and play with the project and you will get to know all about it.
+a few bugs here and there, but hey, there's always room for improvement....will fix em all in a week or 2.
+and again.... keep your eyes peeled, new updates will roll on soon as ive mentioned before.
+
+HAPPY TRIALS!
