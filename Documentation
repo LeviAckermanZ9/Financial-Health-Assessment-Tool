@@ -1,0 +1,91 @@
+# Financial Health Assessment Application
+
+## Overview
+
+This Flask application provides a web-based tool for users to track and assess their financial health. It includes features such as user registration, login, data input, financial health calculations, and visualizations of financial trends.
+
+## Features
+
+- User authentication (registration and login)
+- Input of financial data (income, expenses, debts, investments)
+- Calculation of financial health metrics (savings rate, debt-to-income ratio, investment-to-income ratio)
+- Prediction of savings rate using a machine learning model
+- Visualization of financial trends over time
+- Display of historical financial data
+
+## Setup and Installation
+
+1. Ensure you have Python 3.7+ installed on your system.
+
+2. Clone the repository or download the source code.
+
+3. Install the required dependencies:
+   ```
+   pip install flask flask-sqlalchemy flask-login pandas numpy scikit-learn joblib
+   ```
+
+4. Set up the database:
+   - The application uses SQLite by default. The database file will be created automatically when you run the application for the first time.
+
+5. (Optional) Train the machine learning model:
+   - The application will create a simple model based on simulated data if no pre-trained model exists.
+   - To use real data for training, you would need to modify the `get_ml_model()` function to use your own dataset.
+
+## Running the Application
+
+1. Navigate to the directory containing the application code.
+
+2. Run the Flask application:
+   ```
+   python app.py
+   ```
+
+3. Open a web browser and go to `http://localhost:5000` to access the application.
+
+## Usage Guide
+
+1. **Registration and Login:**
+   - New users should click on the "Register" button on the home page to create an account.
+   - Existing users can log in using their credentials.
+
+2. **Adding Financial Data:**
+   - Once logged in, users will see a form to input their financial data.
+   - Enter your monthly income, monthly expenses, total debts, and total investments.
+   - Click "Submit" to save the data.
+
+3. **Viewing Financial Health Assessment:**
+   - After submitting data, the application will display your financial health metrics:
+     - Savings Rate
+     - Debt-to-Income Ratio
+     - Investment-to-Income Ratio
+     - Predicted Savings Rate (based on the machine learning model)
+
+4. **Exploring Financial Trends:**
+   - The application provides three charts to visualize your financial trends over time:
+     - Income vs Expenses
+     - Savings Rate
+     - Debts vs Investments
+
+5. **Reviewing Historical Data:**
+   - A table at the bottom of the dashboard displays all your historical financial data entries.
+
+## Customization and Extension
+
+- **Database:** The application uses SQLite by default. To use a different database, modify the `SQLALCHEMY_DATABASE_URI` in the Flask configuration.
+- **Machine Learning Model:** To use a custom machine learning model, modify the `get_ml_model()` function to load or train your model with your own data.
+- **UI Customization:** The frontend uses Tailwind CSS for styling. Modify the HTML templates to customize the look and feel of the application.
+
+## Security Considerations
+
+- The application uses Werkzeug's built-in password hashing for user authentication. In a production environment, consider using a more robust authentication system.
+- Ensure to use HTTPS in a production environment to encrypt data in transit.
+- The SECRET_KEY should be changed to a secure random value in a production setting.
+
+## Troubleshooting
+
+- If you encounter database-related issues, try deleting the `financial_health.db` file and restart the application to create a fresh database.
+- For issues related to the machine learning model, delete the `financial_health_model.joblib` file to force the creation of a new model.
+
+## Contributing
+
+Contributions to improve the application are welcome. Please fork the repository, make your changes, and submit a pull request for review.
