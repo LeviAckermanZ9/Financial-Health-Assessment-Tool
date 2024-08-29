@@ -37,7 +37,7 @@ This Flask application provides a web-based tool for users to track and assess t
 
 2. Run the Flask application:
    ```
-   python app.py
+   Financial Health Updated Model.py
    ```
 
 3. Open a web browser and go to `http://localhost:5000` to access the application.
@@ -89,3 +89,6 @@ This Flask application provides a web-based tool for users to track and assess t
 ## Contributing
 
 Contributions to improve the application are welcome. Please fork the repository, make your changes, and submit a pull request for review.
+
+### More features will roll in soon as soon as they finish the development phase and trials.
+### A few things to still add onto this project, Keep your eyes peeled!
