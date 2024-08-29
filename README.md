@@ -19,7 +19,7 @@ Welcome to the **Financial Health Assessment Tool** — a hackathon project aime
 
 # How to Get Started
 
-1. **Clone the Repository**: `git clone https://github.com/yourusername/financial-health-assessment-tool.git`
+1. **Clone the Repository**: gh repo clone LeviAckermanZ9/Financial-Health-Assessment-Tool
 2. **Install Dependencies**: `pip install -r requirements.txt`
 3. **Launch the Tool**: (follow the setup instructions in the documentation)
 
