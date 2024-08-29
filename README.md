@@ -1,6 +1,6 @@
 ## Financial Health Assessment Tool
 
-Welcome to the **Financial Health Assessment Tool** — a hackathon project aimed at revolutionizing personal finance management. Developed for the [Hackathon Name] hosted by [Organizer Name], this tool provides a comprehensive evaluation of your financial health using cutting-edge technology.
+Welcome to the **Financial Health Assessment Tool** — a hackathon project aimed at revolutionizing personal finance management. Developed for the Geeks For Geeks hosted by AIESEC, this tool provides a comprehensive evaluation of your financial health using cutting-edge technology.
 
 # Key Features
 
